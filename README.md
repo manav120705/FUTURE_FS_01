@@ -1,73 +1,87 @@
-# Welcome to your Lovable project
+# 🚀 FUTURE_FS_01 – Personal Portfolio Website
 
-## Project info
+A modern, fully responsive personal portfolio and showcase website built using React, TypeScript, Vite, Tailwind CSS, and shadcn/ui.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+This project highlights my skills, projects, resume, and contact information in a clean and professional layout suitable for recruiters, internships, and professional networking.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🧠 Project Overview
 
-**Use Lovable**
+FUTURE_FS_01 is a portfolio web application designed to present professional details in a structured and visually appealing format.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+### ✨ Key Features
 
-Changes made via Lovable will be committed automatically to this repo.
+- Modern and clean UI design
+- Fully responsive layout (Mobile + Tablet + Desktop)
+- Hero section with introduction
+- About section
+- Skills section
+- Projects showcase
+- Resume & experience section
+- Contact section
+- Download CV functionality
+- Fast development with Vite
+- Type safety with TypeScript
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🛠️ Tech Stack
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Frontend:
+- React
+- TypeScript
+- Vite
 
-Follow these steps:
+Styling:
+- Tailwind CSS
+- shadcn/ui
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Version Control:
+- Git
+- GitHub
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 📂 Project Structure
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```bash
+FUTURE_FS_01/
+│
+├── public/
+│
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── hooks/
+│   ├── lib/
+│   └── main.tsx
+│
+├── package.json
+├── tailwind.config.ts
+├── vite.config.ts
+├── tsconfig.json
+└── README.md
 ```
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## ⚙️ Installation & Setup
 
-**Use GitHub Codespaces**
+1️⃣ Clone the repository
+git clone https://github.com/manav120705/FUTURE_FS_01.git
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-## What technologies are used for this project?
+2️⃣ Navigate to project directory
+cd FUTURE_FS_01
 
-This project is built with:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+3️⃣ Install dependencies
+npm install
 
-## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+4️⃣ Start development server
+npm run dev
 
-## Can I connect a custom domain to my Lovable project?
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+The application will run at local server link
+like:http://localhost:5173
